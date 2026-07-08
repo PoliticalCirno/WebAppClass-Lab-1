@@ -9,12 +9,12 @@ function Aboutme() {
                 <h2 className="about-title-main">About Me</h2>
                 
                 <p className="about-bio-text">
-                    My name is Seungju Lee, going by two pseudo-names across mediums 
+                    My name is Seungju Lee, and I go by two different pseudonyms online.
                     (<span className="highlight-text">BlueMyulee</span>, <span className="highlight-text">PoliticalCirno</span>).
                 </p>
                 
                 <p className="about-bio-text">
-                    I currently hold an NCS (National Competency Standard) Certification in C# Programming and Unity. 
+                    I currently hold an NCS (National Competency Standard) Certification in C# Programming and Unity Engine operations. 
                     I am studying at Canada's Centennial College to acquire globally recognized accreditation.
                 </p>
                 

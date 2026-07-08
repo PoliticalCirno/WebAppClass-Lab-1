@@ -42,6 +42,22 @@ const SKILLS_LIST = [
   {
     name: "Nodemon",
     logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodemon/nodemon-original.svg"
+  },  
+  {
+    name: "React",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+  },
+  {
+    name: "Vitejs",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+  },
+  {
+    name: "Express",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+  },
+  {
+    name: "NPM",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg"
   },
   {
     name: "OpenGL",
@@ -56,16 +72,52 @@ const SKILLS_LIST = [
     logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg"
   },
   {
+    name: "Unreal",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg"
+  },
+  {
     name: "Blender",
     logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg"
   },
   {
-    name: "React",
-    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+    name: "MongoDB",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg"
+  },
+  {
+    name: "Mongoose",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg"
+  },
+  {
+    name: "Json",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg"
   },
   {
     name: "SQL",
     logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+  },
+  {
+    name: "OracleSQL",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg"
+  },
+  {
+    name: "mySQL",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+  },
+  {
+    name: "Riptide",
+    logoUrl: "https://riptide.tomweiland.net/images/logo.png"
+  },
+  {
+    name: "DEvops",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg"
+  },
+  {
+    name: "Katalon",
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Katalon-logo-vector.svg/1280px-Katalon-logo-vector.svg.png?_=20230927024859"
+  },
+  {
+    name: "Linux",
+    logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
   }
 ];
 
