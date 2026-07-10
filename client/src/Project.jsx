@@ -69,8 +69,8 @@ const Project = () => {
           {/* ======================================================== */}
 
           <p className="shadowed-description">
-            My current project. An engine with a goal of providing <br />
-            Open area/Open world framework for developers.
+            <b>Team Project</b> - An ECS game engine made for modularity.
+            Made to cater towards open world/open area exploration combat game.
           </p>
         </div>
       </a>
