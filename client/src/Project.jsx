@@ -107,7 +107,7 @@ const Project = () => {
 
       {/* 3. Bootcamp Game Project*/}
       <a 
-        href="https://github.com/PoliticalCirno/P2AssetCacher" 
+        href="https://github.com/PoliticalCirno/CodeCampPortfolio" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="project-item-row full-span clickable-row"
