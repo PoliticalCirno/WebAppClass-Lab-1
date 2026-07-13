@@ -76,15 +76,15 @@ function App() {
 
     switch (currentPath.toLowerCase()) {
       case '/service':
-        glowColor = '#1e160a';
-        patA = '24%';     
+        glowColor = '#896a3c';
+        patA = '25%';     
         patB = '100%';    
         patSize = '30px 52px';
         patOpacity = '0.04';
         break;
         
       case '/aboutme':
-        glowColor = '#112036';
+        glowColor = '#445b7d';
         patA = '0%';      
         patB = '40%';     
         patSize = '50px 30px';
@@ -92,7 +92,7 @@ function App() {
         break;
         
       case '/contact':
-        glowColor = '#1e1e0a';
+        glowColor = '#747441';
         patA = '12%';     
         patB = '85%';
         patSize = '60px 60px';
@@ -100,7 +100,7 @@ function App() {
         break;
         
       case '/project':
-        glowColor = '#1e0635';
+        glowColor = '#52366c';
         patA = '45%';     
         patB = '100%';
         patSize = '25px 25px';
@@ -108,7 +108,7 @@ function App() {
         break;
         
       default:
-        glowColor = '#353535';
+        glowColor = '#646464';
         patA = '0%';
         patB = '100%';
         patSize = '40px 40px';

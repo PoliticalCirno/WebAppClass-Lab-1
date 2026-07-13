@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import logoEngine from './assets/Logo.png';
 import logoCacher from './assets/logo2.png';
+import temper from './assets/temper.png'
 import './App.css';
 
 const API = "https://assignment-3-backend-2t8x.onrender.com/api/project";
@@ -98,8 +99,41 @@ const Project = () => {
           </div>
 
           <p className="shadowed-description">
-            Also my current project that I'm ping ponging to, <br />
+            <b>Solo project</b> - Also my current project that I'm ping ponging to,
             File Cacher for multi-purpose realtime unpacking.
+          </p>
+        </div>
+      </a>
+
+      {/* 3. Bootcamp Game Project*/}
+      <a 
+        href="https://github.com/PoliticalCirno/P2AssetCacher" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="project-item-row full-span clickable-row"
+      >
+        <div className="project-image-wrapper banner-frame">
+          <img src={temper} alt="P2AssetCacher" className="gradient-fade-img" />
+        </div>
+        <div className="project-text-content">
+          <h3 className="shadowed-title">
+            Bootcamp Project <span className="link-indicator-icon">↗</span>
+          </h3>
+          
+          <div className="project-tech-row">
+            <div className="tech-badge">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" />
+              <span>C#</span>
+            </div>
+            <div className="tech-badge">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" alt="Unity" />
+              <span>Unity</span>
+            </div>
+          </div>
+
+          <p className="shadowed-description">
+            <b>Class project</b> - A portfolio project made during Yonsai IT
+            Coding bootcamp. Won first place during final roundup.
           </p>
         </div>
       </a>
@@ -107,11 +141,11 @@ const Project = () => {
       {/* 3. DND HOOK BOT */}
       <a href="#dnd-bot" className="project-item-row full-span clickable-row">
         <div className="project-image-wrapper banner-frame">
-          <div className="procedural-fallback bot-gradient" />
+           <img src={temper} alt="lol" className="gradient-fade-img" />
         </div>
         <div className="project-text-content">
           <h3 className="shadowed-title">
-            DND HOOK BOT <span className="link-indicator-icon">↗</span>
+            DND HOOK BOT <span className="link-indicator-icon"></span>
           </h3>
 
           <div className="project-tech-row">
